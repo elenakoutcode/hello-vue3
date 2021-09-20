@@ -2,6 +2,7 @@
   <div class="container">
     <h1 class="pageTitle">Date Picker</h1>
     <date-picker></date-picker>
+    <p> test </p>
   </div>
 </template>
 
