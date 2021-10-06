@@ -1,46 +1,15 @@
 <template>
-  <div class="container">
-    <h1 class="pageTitle">Date Picker</h1>
-    <date-picker></date-picker>
-    <p> test </p>
-  </div>
+  <img alt="Vue logo" src="./assets/logo.png" />
+  <query-input></query-input>
 </template>
 
 <script>
-// import { ref, onMounted } from 'vue';
-
-import DatePicker from '@/components/DatePicker';
-
+import QueryInput from './components/QueryInput.vue';
 export default {
   name: 'App',
   components: {
-    DatePicker,
-  },
-  setup() {
-    const months = [
-      'January',
-      'February',
-      'March',
-      'April',
-      'May',
-      'June',
-      'July',
-      'August',
-      'September',
-      'October',
-      'November',
-      'December',
-    ];
-
-    const startingYear = 2010;
-    const numberofYears = 20;
-
-    return {
-      months,
-      numberofYears,
-      startingYear,
-    };
-  },
+    QueryInput
+  }
 };
 </script>
 
