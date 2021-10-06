@@ -1,17 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <img alt="Vue logo" src="./assets/logo.png" />
+  <query-input></query-input>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import QueryInput from './components/QueryInput.vue';
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    QueryInput
   }
-}
+};
 </script>
 
 <style>
