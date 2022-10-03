@@ -1,6 +1,8 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <query-input></query-input>
+  <div class="section">
+    <img alt="Vue logo" src="./assets/logo.png" />
+    <query-input></query-input>
+  </div>
 </template>
 
 <script>
