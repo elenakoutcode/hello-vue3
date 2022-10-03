@@ -1,6 +1,8 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <query-input></query-input>
+  <div class="section">
+    <img alt="Vue logo" src="./assets/logo.png" />
+    <query-input></query-input>
+  </div>
 </template>
 
 <script>
@@ -102,6 +104,21 @@ ul {
   --size-15-13: clamp(16rem, 10.6667rem + 23.7037vw, 32rem); /* 512-256 */
   --size-16-14: clamp(24rem, 18.6667rem + 23.7037vw, 40rem); /* 640-384 */
   --size-17-15: clamp(32rem, 26.6667rem + 23.7037vw, 48rem); /* 768-512 */
+}
+
+.section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+
+.flex {
+  display: flex;
+  gap: 24px;
 }
 
 .container {
